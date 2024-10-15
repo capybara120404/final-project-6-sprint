@@ -10,7 +10,7 @@ jobs:
 
   ftrackertest:
     runs-on: ubuntu-latest
-    container: golang:1.23.1
+    container: golang:1.23.2
 
     steps:
       - name: Checkout code
